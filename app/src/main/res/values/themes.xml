@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme._404Fries" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme._404Fries" parent="Theme.SplashScreen">
+            <item name="windowSplashScreenBackground">#FAF5EE</item>
+            <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+            <item name="postSplashScreenTheme">@style/Theme._404Fries</item>
+    </style>
 </resources>
